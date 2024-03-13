@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CongCu\\KiemTra\\Login_WF\\Login_WF\\Login_WF.csproj",
+      "projectUniqueName": "D:\\CongCu\\final\\Login_WF\\Login_WF\\Login_WF.csproj",
       "projectName": "Login_WF",
-      "projectPath": "D:\\CongCu\\KiemTra\\Login_WF\\Login_WF\\Login_WF.csproj",
+      "projectPath": "D:\\CongCu\\final\\Login_WF\\Login_WF\\Login_WF.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\CongCu\\KiemTra\\Login_WF\\Login_WF\\obj\\",
+      "outputPath": "D:\\CongCu\\final\\Login_WF\\Login_WF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
