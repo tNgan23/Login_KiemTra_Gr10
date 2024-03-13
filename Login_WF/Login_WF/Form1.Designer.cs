@@ -56,9 +56,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(168, 222);
             label2.Name = "label2";
-            label2.Size = new Size(70, 20);
+            label2.Size = new Size(68, 20);
             label2.TabIndex = 2;
-            label2.Text = "Password";
+            label2.Text = "MatKhau";
             // 
             // txtPassword
             // 
