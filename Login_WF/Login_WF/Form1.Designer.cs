@@ -28,70 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.btnDangNhap = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            txtUserName = new TextBox();
+            label2 = new Label();
+            txtPassword = new TextBox();
+            btnDangNhap = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 125);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tên đăng nhập";
+            label1.AutoSize = true;
+            label1.Location = new Point(168, 167);
+            label1.Name = "label1";
+            label1.Size = new Size(107, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Tên đăng nhập";
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(241, 123);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(201, 23);
-            this.txtUserName.TabIndex = 1;
+            txtUserName.Location = new Point(275, 164);
+            txtUserName.Margin = new Padding(3, 4, 3, 4);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(260, 27);
+            txtUserName.TabIndex = 1;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(147, 166);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Mật khẩu";
+            label2.AutoSize = true;
+            label2.Location = new Point(168, 221);
+            label2.Name = "label2";
+            label2.Size = new Size(70, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Mật khẩu";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(241, 161);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(201, 23);
-            this.txtPassword.TabIndex = 3;
+            txtPassword.Location = new Point(275, 215);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(260, 27);
+            txtPassword.TabIndex = 3;
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(367, 239);
-            this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(75, 23);
-            this.btnDangNhap.TabIndex = 4;
-            this.btnDangNhap.Text = "Đăng Nhập";
-            this.btnDangNhap.UseVisualStyleBackColor = true;
+            btnDangNhap.Location = new Point(419, 319);
+            btnDangNhap.Margin = new Padding(3, 4, 3, 4);
+            btnDangNhap.Name = "btnDangNhap";
+            btnDangNhap.Size = new Size(116, 31);
+            btnDangNhap.TabIndex = 4;
+            btnDangNhap.Text = "Đăng Nhập";
+            btnDangNhap.UseVisualStyleBackColor = true;
+            btnDangNhap.Click += btnDangNhap_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnDangNhap);
-            this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUserName);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(914, 600);
+            Controls.Add(btnDangNhap);
+            Controls.Add(txtPassword);
+            Controls.Add(label2);
+            Controls.Add(txtUserName);
+            Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
